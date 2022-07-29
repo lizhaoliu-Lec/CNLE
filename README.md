@@ -32,4 +32,4 @@ python predict.py --evaluate EVALUATION_TYPE --path PATH_TO_CHECKPOINT_DIRECTORY
 ```
 
 ## Acknowledgement
-Our project is highly based on the [![DecaNLP](https://github.com/salesforce/decaNLP)] projects. Please go and show some support!
+Our project is highly based on the [DecaNLP](https://github.com/salesforce/decaNLP) projects. Please go and show some support!
