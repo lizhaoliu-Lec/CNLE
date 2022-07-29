@@ -1,4 +1,4 @@
-# CNLE: Co-attention network with label embedding for text classification
+# CNLE: Co-attention Network with Label Embedding for Text Classification
 Created by Minqian Liu, Lizhao Liu and Junyi Cao from South China University of Technology.
 
 This repository contains the official PyTorch-implementation of our [Neurocomputing 2022 paper *Co-attention network with label embedding for text classification*](https://mqianliu.github.io/files/CNLE_Neurocomputing22.pdf).
