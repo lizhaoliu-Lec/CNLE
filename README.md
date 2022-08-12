@@ -33,3 +33,17 @@ python predict.py --evaluate EVALUATION_TYPE --path PATH_TO_CHECKPOINT_DIRECTORY
 
 ## Acknowledgement
 Our project is highly based on the [DecaNLP](https://github.com/salesforce/decaNLP) projects. Please go and show some support!
+
+## Citation
+If you find this code helpful for your research, please consider citing
+```
+@article{liu2022co,
+  title={Co-attention network with label embedding for text classification},
+  author={Liu, Minqian and Liu, Lizhao and Cao, Junyi and Du, Qing},
+  journal={Neurocomputing},
+  volume={471},
+  pages={61--69},
+  year={2022},
+  publisher={Elsevier}
+}
+```
