@@ -14,6 +14,13 @@ We place datasets under the directory:
 .data/my_custom_dataset/<DATASET_NAME>
 ```
 
+## Preprocessing
+We preprocess all data into form
+```
+{"context": "The text to classified.", "question": "class1, class2, ..., classN (All labels from the dataset)", "answer": "The labels for the context."}
+```
+We provide some preprocessing scripts (for AG News, DP Pedia, Yelp Full) under the `preprocess` folder. For other datasets, just slightly modify the scripts.
+
 ## Training
 For example, to train the model on Schema Dataset on GPU 0:
 ```bash
