@@ -24,7 +24,7 @@ We provide some preprocessing scripts (for AG News, DP Pedia, Yelp Full) under t
 ## Training
 For example, to train the model on Schema Dataset on GPU 0:
 ```bash
-python train.py --train_tasks schema --device 0 --embeddings embedding_path
+python train.py --train_tasks schema --device 0 --embeddings YOUR_EMBEDDING_PATH
 ```
 You can resume the model with stored checkpoints using ```--load <PATH_TO_CHECKPOINT>``` and ```--resume```. Note that the checkpoints, configurations and training logs are saved in the directory specified in ```--save```. (```./results``` as default)
 
